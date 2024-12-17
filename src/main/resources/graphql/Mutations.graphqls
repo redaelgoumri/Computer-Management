@@ -1,0 +1,5 @@
+type Mutation {
+    saveComputer(
+        computerDto: ComputerDtoInput
+    ): ComputerDto
+}
